@@ -13,6 +13,8 @@ public class Ejemplo07 {
     public static void main(String[] args) {
         int operacion;
         String mensajeFinal = "";
+        // indicaciones para un codigo mas ordenado usando de forma ordenada 
+        // y mas eficiente los ciclos repetitivos
         for (int i = 1; i <= 10; i++) { // for 01
             //System.out.printf("Tabla de multiplicar del número %d\n", i);
             mensajeFinal = String.format("%sTabla de multiplicar del número %d\n", 
