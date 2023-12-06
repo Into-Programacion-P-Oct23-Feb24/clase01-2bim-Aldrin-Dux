@@ -18,6 +18,8 @@ public class Ejemplo04 {
         
         for (int i = 20; i >= 0; i-=2) {
             System.out.printf("%d\n", i);
+            // ejemplo 02 indica que se suma de dos en dos
+            // ejemplo 04 indica que se resta de dos en dos
         }
       
     }
