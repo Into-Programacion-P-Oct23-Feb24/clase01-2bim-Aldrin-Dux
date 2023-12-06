@@ -9,23 +9,23 @@ package paquete01;
  *
  * @author reroes
  */
-public class Ejemplo01 {
+public class Ejemplo014 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String cadena="";
+        int cadena=0;
 
         for (int i = 1; i <= 10; i++) {
-            cadena=String.format("%s%d\n",cadena,i);
+            cadena=cadena+i;
         }
         
         for (int i = 1; i < 11; i++) {
-            cadena=String.format("%s%d\n",cadena,i);
+            cadena=cadena+i;
             
         }
-        System.out.printf("%s",cadena );
+        System.out.printf("%d",cadena );
 
     }
 
